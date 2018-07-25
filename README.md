@@ -10,7 +10,6 @@ Assumption:
   * key3
   * key4
   * key5
-  
 
 ```
 
@@ -30,5 +29,6 @@ Assumption:
         3.  Example: "http://localhost:3000/melbourne,australia,key1"
     2.  User interface test
         1.  Type in city,country,key accordingly
+        2.  Example : (city: melbourne)(country: australia)(key: key1)
         2.  Press get weather description button
     
