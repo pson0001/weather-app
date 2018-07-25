@@ -16,8 +16,8 @@ Assumption:
 
 
 1.  Buid
-    1.  Unzip the weatherapp.zip
-    2.  Open terminal to the local directory of weatherapp
+    1.  Unpack the weatherapp.weatherapp.tar.gz
+    2.  Open terminal to the local directory of weatherapp file
     3.  Type "node server.js" to terminal
 2.  Run
     1.  Open browser 
