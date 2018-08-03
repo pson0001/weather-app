@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/index.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <fieldset>
+      <form action="/:parameters" method="get">
+        <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+        <input name="country" type="text" class="ghost-input" placeholder="Enter a Country" required>
+        <input name="key" type="text" class="ghost-input" placeholder="Enter Your Key" required>
+        <input type="submit" class="ghost-button" value="Get Weather Description">
+      </form>
+      <% if(weather !== null){ %>
+        <p>
+          <%= weather %>
+        </p>
+        <% } %>
+
+          <% if(error !== null){ %>
+            <p>
+              <%= error %>
+            </p>
+            <% } %>
+    </fieldset>
+  </div>
+</body>
+
+</html>
